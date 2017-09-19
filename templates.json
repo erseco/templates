@@ -1,5 +1,15 @@
 [
   {
+    "title": "Ubuntu 16.04",
+    "description": "Ubuntu 16.04 LTS",
+    "categories": ["wazuh"],
+    "platform": "linux",
+    "logo": "http://design.ubuntu.com/wp-content/uploads/b6d9/ubuntu_black-orange_hex.jpg",
+    "image": "ubuntu:16.04",
+    "network": "bridge",
+    "volumes": ["/var/lib/registry"]
+  },
+  {
     "title": "Registry",
     "description": "Docker image registry",
     "categories": ["docker"],

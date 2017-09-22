@@ -1,5 +1,15 @@
 [
   {
+    "title": "Ubuntu 12.04",
+    "description": "Ubuntu 12.04 LTS",
+    "categories": ["wazuh"],
+    "platform": "linux",
+    "logo": "http://design.ubuntu.com/wp-content/uploads/b6d9/ubuntu_black-orange_hex.jpg",
+    "image": "ubuntu:12.04",
+    "network": "bridge",
+    "volumes": ["/var/lib/registry"]
+  },    
+  {
     "title": "Ubuntu 14.04",
     "description": "Ubuntu 14.04 LTS",
     "categories": ["wazuh"],
